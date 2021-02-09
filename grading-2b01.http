@@ -1,0 +1,26 @@
+## DEACTIVATE QUEUE01004
+
+PUT http://ades-2b01.herokuapp.com/company/queue?queue_id=QUEUE01004
+Content-Type: application/json
+
+{
+    "status": "DEACTIVATE"
+}
+
+### ACTIVATE QUEUE01004
+
+PUT http://ades-2b01.herokuapp.com/company/queue?queue_id=QUEUE01004
+Content-Type: application/json
+
+{
+    "status": "ACTIVATE"
+}
+
+### SERVER AVAILABLE QUEUE01004
+
+PUT http://ades-2b01.herokuapp.com/company/server
+Content-Type: application/json
+
+{
+    "queue_id": "QUEUE01004"
+}
