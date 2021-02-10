@@ -1,5 +1,22 @@
 # ADES AY2021 Sem2 Backend Tester
 
+## Grading Instruction
+
+1. Set Database Connection Strings
+   1. 2B01: postgres://mursjkwp:r6KXybdnpd2g8glGoHkNRDigGZ_vPNVu@john.db.elephantsql.com:5432/mursjkwp
+   2. 2B02: postgres://rkarncql:7skaXpRwicO-6QQwwUzpSIZF81hhTrhQ@john.db.elephantsql.com:5432/rkarncql
+   3. 2B03: postgres://yjnhhwlu:OuA19kUSLYZDig5T6DaRHvtVskwdjSW6@john.db.elephantsql.com:5432/yjnhhwlu
+   4. 2B04: postgres://jkiyfzqg:qHsHqSC6x9wRpHUy77qP7WIUW03-4ShV@john.db.elephantsql.com:5432/jkiyfzqg
+2. Start Customer Instance
+   1. `npm run start-win-customer`
+   2. `npm run start-macos-customer`
+        > Permission Denied? Run: chmod +x ./bin/www-macos
+3. Awake Heroku (Just open the link in browse)
+   1. 2B01: http://ades-2b01.herokuapp.com/
+   2. 2B02: http://ades-2b02.herokuapp.com/
+   3. 2B03: http://ades-2b03.herokuapp.com/
+   4. 2B04: http://ades-2b04.herokuapp.com/
+
 ## First things first - Set database connection
 
 1. Go to elephantSql and copy the connection string of any instance.
